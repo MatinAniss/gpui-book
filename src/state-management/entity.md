@@ -2,7 +2,7 @@
 
 `Entity<T>`'s are used when you need to store application state that must communicate between different parts of your application. They are owned by GPUI and can be managed with any type that implements the `AppContext` trait, `App` and `Context<T>` are two common types seen in GPUI which implement `AppContext`. All entities are owned inside of `App` and all other types that implement `AppContext` dereference to `App` to access the entities.
 
-There are some other types that also implement `AppContext` that are used in more advanced cases relating to [async GPUI](/async/index.md).
+There are some other types that also implement `AppContext` that are used in more advanced cases relating to [async GPUI](../async/index.md).
 
 If the `T` type of a `Entity<T>` implements the `Render` trait it is commonly referred to as a view.
 

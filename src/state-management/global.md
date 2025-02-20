@@ -1,6 +1,6 @@
 ## Global
 
-`Global`'s are used when you need to share some state with your whole application. A common example of a global state is the application's settings. Any type that implements the `Global` marker trait can be stored as a global, similar to [Entity](/state-management/entity.md) they are owned by GPUI.
+`Global`'s are used when you need to share some state with your whole application. A common example of a global state is the application's settings. Any type that implements the `Global` marker trait can be stored as a global, similar to [Entity](entity.md) they are owned by GPUI.
 
 ### Marking a type as a Global
 
