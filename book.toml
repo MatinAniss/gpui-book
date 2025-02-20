@@ -1,0 +1,13 @@
+[book]
+authors = ["Matin Aniss"]
+language = "en"
+multilingual = false
+src = "src"
+title = "GPUI"
+
+[output.html]
+git-repository-url = "https://github.com/matinaniss/gpui-book"
+site-url = "/gpui-book/"
+
+[output.html.playground]
+runnable = false
