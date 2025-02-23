@@ -5,17 +5,17 @@ The `Div` element is the most commonly used element in GPUI. It functions as a c
 ### Creating a Div
 
 ```rust
-div()
+{{ #include snippets/creating_a_div.rs }}
 ```
 
 ### Adding a child to a Div
 
 ```rust
-div().child(div())
+{{ #include snippets/adding_a_child_to_a_div.rs }}
 ```
 
 ### Adding children to a Div
 
 ```rust
-div().children([div(), div()])
+{{ #include snippets/adding_children_to_a_div.rs }}
 ```

@@ -7,12 +7,7 @@
 Before you can set some type as a global it must implement the `Global` marker trait.
 
 ```rust
-pub struct SomeState {
-    some_value: bool
-}
-
-// Global marker trait
-impl Global for SomeState {}
+{{ #include snippets/marking_a_type_as_a_global.rs }}
 ```
 
 ### Setting a Global
@@ -20,9 +15,7 @@ impl Global for SomeState {}
 This will set the global for the given type. The type must implement `Global`.
 
 ```rust
-app.set_global::<SomeState>(SomeState {
-    some_value: true
-});
+{{ #include snippets/setting_a_global.rs }}
 ```
 
 ### Accessing a Global
@@ -30,7 +23,7 @@ app.set_global::<SomeState>(SomeState {
 This will give you a reference to the global. Accessing a global that has not been set will cause a panic.
 
 ```rust
-let some_value = app.global::<SomeState>().some_value;
+{{ #include snippets/accessing_a_global.rs }}
 ```
 
 ### Mutably Accessing a Global
@@ -38,8 +31,7 @@ let some_value = app.global::<SomeState>().some_value;
 This will give you a mutable reference to the global. Accessing a global that has not been set will cause a panic.
 
 ```rust
-let some_value = app.global::<SomeState>().some_value;
-some_value = false;
+{{ #include snippets/mutably_accessing_a_global.rs }}
 ```
 
 ### Attempt to access a Global
@@ -47,7 +39,7 @@ some_value = false;
 This will give you a reference to the global wrapped in a `Option<T>`.
 
 ```rust
-let maybe_some_value = app.try_global::<SomeState>().some_value;
+{{ #include snippets/attempt_to_access_a_global.rs }}
 ```
 
 ### Check whether a Global has been set
@@ -55,7 +47,7 @@ let maybe_some_value = app.try_global::<SomeState>().some_value;
 This will check if the global has been set for the given type.
 
 ```rust
-let is_set_bool = app.has_global::<SomeState>();
+{{ #include snippets/check_whether_a_global_has_been_set.rs }}
 ```
 
 ### Removing a Global
@@ -63,7 +55,7 @@ let is_set_bool = app.has_global::<SomeState>();
 This will remobe the global for the given type.
 
 ```rust
-app.remove_global::<SomeState>();
+{{ #include snippets/removing_a_global.rs }}
 ```
 
 ### Mutably Accessing a Global with Default fallback
@@ -71,7 +63,7 @@ app.remove_global::<SomeState>();
 This will give you a mutable reference to the global. If the global has not already been set it wil set it to the default given by the type's `Default` trait implementation.
 
 ```rust
-app.default_global::<SomeState>();
+{{ #include snippets/mutably_accessing_a_global_with_default_fallback.rs }}
 ```
 
 ### Updating a Global
@@ -79,9 +71,7 @@ app.default_global::<SomeState>();
 This will update the global for the given type.
 
 ```rust
-app.update_global::<SomeState, _>(|some_state, app| {
-    some_state.some_value = false;
-});
+{{ #include snippets/updating_a_global.rs }}
 ```
 
 ### Observing a Global
@@ -89,7 +79,5 @@ app.update_global::<SomeState, _>(|some_state, app| {
 This will register a callback that will be called when the global is updated.
 
 ```rust
-app.observe_global::<SomeState>(|app| {
-    // Global update callback
-});
+{{ #include snippets/observing_a_global.rs }}
 ```

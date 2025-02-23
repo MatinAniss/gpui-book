@@ -5,11 +5,5 @@ The `RenderOnce` trait as opposed to the `Render` trait is used when you want to
 Contrary to `Render` the the `render` function of `RenderOnce` takes ownership of self unlike the mutable reference of self that `Render` supplies. This is useful for components that do not need to store any mutable application state.
 
 ```rust
-struct SomeStruct;
-
-impl RenderOnce for SomeStruct {
-    fn render(self, _window: &mut Window, _cx: &mut App) -> impl IntoElement {
-        div()
-    }
-}
+{{ #include snippets/render_once.rs }}
 ```

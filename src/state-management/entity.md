@@ -11,13 +11,7 @@ If the `T` type of a `Entity<T>` implements the `Render` trait it is commonly re
 This will create a `Entity` with the given state.
 
 ```rust
-pub struct SomeState {
-    some_value: bool
-}
-
-let entity = app.new(|cx| {
-    SomeState { some_value: true }
-});
+{{ #include snippets/creating_a_entity.rs }}
 ```
 
 ### Reading a Entity
@@ -25,7 +19,7 @@ let entity = app.new(|cx| {
 This will give you a reference to the state.
 
 ```rust
-let some_state = entity.read(app);
+{{ #include snippets/reading_a_entity.rs }}
 ```
 
 ### Updating a Entity
@@ -33,9 +27,7 @@ let some_state = entity.read(app);
 This will update the state.
 
 ```rust
-entity.update(app, |some_state, cx| {
-    some_state.some_value = false;
-});
+{{ #include snippets/updating_a_entity.rs }}
 ```
 
 ### Downgrading a Entity
@@ -43,5 +35,5 @@ entity.update(app, |some_state, cx| {
 This will turn a `Entity` into a `WeakEntity` which is a weak pointer.
 
 ```rust
-let weak_entity = entity.downgrade();
+{{ #include snippets/downgrading_a_entity.rs }}
 ```
