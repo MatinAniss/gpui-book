@@ -10,7 +10,7 @@
   - [Global](state-management/global.md)
 - [Elements](elements/index.md)
   - [Div](elements/div.md)
-  - [Text]()
+  - [Text](elements/text.md)
   - [Img]()
   - [Svg]()
   - [Deferred]()
