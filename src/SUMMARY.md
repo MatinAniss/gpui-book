@@ -21,6 +21,7 @@
 - [Styling](styling/index.md)
   - [Element](styling/element.md)
   - [Text](styling/text.md)
+  - [Image](styling/image.md)
 - [Animation](animation/index.md)
 - [Interactivity](interactivity/index.md)
   - [Mouse]()
