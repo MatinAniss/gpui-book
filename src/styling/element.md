@@ -1,6 +1,6 @@
 ## Element
 
-Any element that implements the `Styled` allows its styles to be modifed through the `.style()` function or with the utility CSS-like styling functions.
+Any element that implements the `Styled` trait allows its styles to be modifed through the `.style()` function or with the utility CSS-like styling functions.
 
 ### Align Content
 
@@ -104,7 +104,7 @@ The `position` style controls the positioning of the element is determined. The 
 
 ### Size
 
-The `size` style controls the the size of the element.
+The `size` style controls the size of the element.
 
 ### Text
 

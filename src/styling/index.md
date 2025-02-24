@@ -4,7 +4,7 @@ In this chapter, we will show you how to style elements in your GPUI application
 
 GPUI uses [Taffy](https://github.com/DioxusLabs/taffy) as the underlying layout engine, it powers how elements are layed out.
 
-The styling of elements can be done using the utility CSS-like styling API or by modifying the underlying `Style` struct of the element, This can be done with `.style()` function which is available to any element that implements the `Styled` trait. The utility CSS-like styling API are just shorthand functions that allow you to apply the same underlying style adjustments in a more concise manner.
+The styling of elements can be done using the utility CSS-like styling API or by modifying the underlying `Style` struct of the element, this can be done with `.style()` function which is available to any element that implements the `Styled` trait. The utility CSS-like styling API are just shorthand functions that allow you to apply the same underlying style adjustments in a more concise manner.
 
 ## Comparison
 
