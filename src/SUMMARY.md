@@ -13,7 +13,7 @@
   - [Text](elements/text.md)
   - [Img](elements/img.md)
   - [Svg]()
-  - [Deferred]()
+  - [Deferred](elements/deferred.md)
   - [Anchored]()
   - [List]()
   - [Uniform List]()
