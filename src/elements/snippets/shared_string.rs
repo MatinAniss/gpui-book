@@ -1,5 +1,6 @@
 use gpui::{
-    AppContext, Application, ParentElement, Render, SharedString, Styled, WindowOptions, div, rgb,
+    AppContext, Application, Context, IntoElement, ParentElement, Render, SharedString, Styled,
+    Window, WindowOptions, div, rgb,
 };
 
 struct RootView {
@@ -7,11 +8,7 @@ struct RootView {
 }
 
 impl Render for RootView {
-    fn render(
-        &mut self,
-        _window: &mut gpui::Window,
-        _cx: &mut gpui::Context<'_, Self>,
-    ) -> impl gpui::IntoElement {
+    fn render(&mut self, _window: &mut Window, _cx: &mut Context<Self>) -> impl IntoElement {
         div()
             .size_full()
             .bg(rgb(0xFFFFFF))

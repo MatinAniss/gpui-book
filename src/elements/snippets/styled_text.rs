@@ -1,17 +1,13 @@
 use gpui::{
-    AppContext, Application, Font, FontFeatures, FontStyle, FontWeight, ParentElement, Render,
-    SharedString, StrikethroughStyle, Styled, StyledText, TextRun, UnderlineStyle, WindowOptions,
-    div, hsla, px, rgb,
+    AppContext, Application, Context, Font, FontFeatures, FontStyle, FontWeight, IntoElement,
+    ParentElement, Render, SharedString, StrikethroughStyle, Styled, StyledText, TextRun,
+    UnderlineStyle, Window, WindowOptions, div, hsla, px, rgb,
 };
 
 struct RootView;
 
 impl Render for RootView {
-    fn render(
-        &mut self,
-        _window: &mut gpui::Window,
-        _cx: &mut gpui::Context<'_, Self>,
-    ) -> impl gpui::IntoElement {
+    fn render(&mut self, _window: &mut Window, _cx: &mut Context<Self>) -> impl IntoElement {
         div()
             .size_full()
             .bg(rgb(0xFFFFFF))

@@ -6,7 +6,7 @@ use gpui::{
 struct RootView;
 
 impl Render for RootView {
-    fn render(&mut self, _window: &mut Window, _cx: &mut Context<'_, Self>) -> impl IntoElement {
+    fn render(&mut self, _window: &mut Window, _cx: &mut Context<Self>) -> impl IntoElement {
         div().child(deferred(div()))
     }
 }
