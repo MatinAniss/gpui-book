@@ -1,3 +1,3 @@
 # Testing
 
-In this chapter, we will show you how to programmatically test your GPUI application.
+In this chapter, you will learn how to programmatically test your GPUI application.

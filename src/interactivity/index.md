@@ -1,3 +1,3 @@
 # Interactivity
 
-In this chapter, we will show you how to make your GPUI application interactive.
+In this chapter, you will learn how to make your GPUI application interactive.

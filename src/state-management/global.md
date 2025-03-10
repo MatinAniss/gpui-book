@@ -52,7 +52,7 @@ This will check if the global has been set for the given type.
 
 ### Removing a Global
 
-This will remobe the global for the given type.
+This will remove the global for the given type.
 
 ```rust
 {{ #include snippets/removing_a_global.rs }}

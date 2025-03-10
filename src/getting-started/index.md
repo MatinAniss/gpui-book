@@ -1,6 +1,6 @@
 # Getting Started
 
-In this chapter, we will show you how to get started with a basic GPUI application either by using [Create GPUI App](https://github.com/zed-industries/create-gpui-app) or manually getting started with your own Rust project.
+In this chapter, you will learn how to get started with a basic GPUI application either by using [Create GPUI App](https://github.com/zed-industries/create-gpui-app) or manually getting started with your own Rust project.
 
 Currently GPUI is not yet being published to the [crates.io registered crate](https://crates.io/crates/gpui).
 

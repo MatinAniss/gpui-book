@@ -1,3 +1,3 @@
 # Async
 
-In this chapter, we will show you how to handle asynchronous tasks in GPUI.
+In this chapter, you will learn how to handle asynchronous tasks in GPUI.

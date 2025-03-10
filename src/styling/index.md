@@ -1,6 +1,6 @@
 # Styling
 
-In this chapter, we will show you how to style elements in your GPUI application.
+In this chapter, you will learn how to style elements in your GPUI application.
 
 GPUI uses [Taffy](https://github.com/DioxusLabs/taffy) as the underlying layout engine, it powers how elements are layed out.
 
