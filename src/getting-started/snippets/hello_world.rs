@@ -1,6 +1,6 @@
 use gpui::{
     AppContext, Application, Context, IntoElement, ParentElement, Render, SharedString, Styled,
-    Window, WindowOptions, div, rgb,
+    Window, WindowOptions, div, white,
 };
 
 struct HelloWorld {
@@ -11,7 +11,7 @@ impl Render for HelloWorld {
     fn render(&mut self, _window: &mut Window, _cx: &mut Context<Self>) -> impl IntoElement {
         div()
             .size_full()
-            .bg(rgb(0xFFFFFF))
+            .bg(white())
             .flex()
             .justify_center()
             .items_center()
