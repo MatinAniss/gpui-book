@@ -24,7 +24,7 @@
   - [Image](styling/image.md)
 - [Animation](animation/index.md)
 - [Interactivity](interactivity/index.md)
-  - [Mouse]()
+  - [Mouse](interactivity/mouse.md)
   - [Keyboard]()
 - [Rendering](rendering/index.md)
   - [Render](rendering/render.md)
