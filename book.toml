@@ -9,6 +9,8 @@ src = "src"
 [output.html]
 git-repository-url = "https://github.com/MatinAniss/gpui-book"
 site-url = "/gpui-book/"
+default-theme = "light"
+preferred-dark-theme = "ayu"
 
 [output.html.playground]
 runnable = false
