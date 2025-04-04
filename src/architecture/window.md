@@ -12,7 +12,7 @@ Gives the origin and size of the platform window.
 
 ### Mouse Position
 
-Gives the x and y position of the window relative to the window.
+Gives the x and y position of the mouse relative to the window.
 
 ```rust
 {{ #include snippets/mouse_position.rs }}
