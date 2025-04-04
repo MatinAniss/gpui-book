@@ -4,7 +4,7 @@ This section will walkthrough how to manually setup a monolithic project structu
 
 ### Setup
 
-```
+```properties
 cargo new my-app
 cd my-app
 ```

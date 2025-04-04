@@ -4,7 +4,7 @@
 
 ### Build and Install
 
-```
+```properties
 cargo install create-gpui-app
 ```
 
@@ -12,12 +12,12 @@ cargo install create-gpui-app
 
 #### Monolithic Structure
 
-```
+```properties
 create-gpui-app --name my-app
 cd my-app
 ```
 
-```
+```properties
 my-app
 ├── src
 │   └── main.rs
@@ -27,12 +27,12 @@ my-app
 
 #### Workspace Structure
 
-```
+```properties
 create-gpui-app --workspace --name my-app
 cd my-app
 ```
 
-```
+```properties
 my-app
 ├── Cargo.toml
 ├── crates
