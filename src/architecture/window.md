@@ -1,11 +1,19 @@
 ## Window
 
-`Window`'s contain the views and components that will be rendered in your application, they each correspond to a platform window.
+`Window` represents a platform window, it allows you to control many aspects of the window's functionality.
 
-### Opening a Window
+### Bounds
 
-Using `App` you can access the `open_window` function which takes a `WindowOptions` and a callback which supplies mutable references to a `Window` and `App` that is used to build the root view. To learn more on how views are created you can read the [Render section](../rendering/render.md).
+Gives the origin and size of the platform window.
 
 ```rust
-{{ #include snippets/opening_a_window.rs }}
+{{ #include snippets/bounds.rs }}
+```
+
+### Mouse Position
+
+Gives the x and y position of the window relative to the window.
+
+```rust
+{{ #include snippets/mouse_position.rs }}
 ```
