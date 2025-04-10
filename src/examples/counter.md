@@ -1,6 +1,8 @@
 ## Counter
 
-A number counter with a increment and decrement button.
+A number counter with an increment and decrement button.
+
+![Counter](images/counter.png)
 
 ### Implementation
 

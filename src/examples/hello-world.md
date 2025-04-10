@@ -2,6 +2,8 @@
 
 A simple "Hello World!".
 
+![Hello World](images/hello_world.png)
+
 ### Implementation
 
 ```rust
