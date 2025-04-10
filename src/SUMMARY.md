@@ -42,5 +42,8 @@
   - [Foreground Executor]()
   - [Background Executor]()
 - [Testing](testing/index.md)
+- [Examples](examples/index.md)
+  - [Hello World](examples/hello-world.md)
+  - [Counter](examples/counter.md)
 
 [GPUI Types Glossary](gpui-types-glossary.md)
