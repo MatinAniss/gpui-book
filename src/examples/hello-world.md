@@ -2,7 +2,7 @@
 
 A simple "Hello World!".
 
-![Hello World](images/hello_world.png)
+![Hello World](images/hello_world.webp)
 
 ### Implementation
 
