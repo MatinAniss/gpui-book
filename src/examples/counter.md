@@ -2,7 +2,7 @@
 
 A number counter with an increment and decrement button.
 
-![Counter](images/counter.png)
+![Counter](images/counter.webp)
 
 ### Implementation
 
