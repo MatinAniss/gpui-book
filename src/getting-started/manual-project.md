@@ -9,7 +9,7 @@ cargo new my-app
 cd my-app
 ```
 
-Add the `gpui` git depedency to the `Cargo.toml`.
+Add the `gpui` git dependency to the `Cargo.toml`.
 
 ```toml
 {{ #include snippets/hello_world_cargo.toml }}

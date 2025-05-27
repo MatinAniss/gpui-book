@@ -1,4 +1,4 @@
-# State Managemenet
+# State Management
 
 In this chapter, you will learn how to manage state in your GPUI application.
 
