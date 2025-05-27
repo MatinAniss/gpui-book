@@ -1,6 +1,6 @@
 ## Deferred
 
-The `Deferred` element allow you to defer the layouting and painting of a element. GPUI follows the [Painter's algorithm](https://en.wikipedia.org/wiki/Painter%27s_algorithm) where elements that get painted after will be drawn on top of a element that got painted earlier. This is where the `Deferred` element allows you to delay the layout and paint of its child.
+The `Deferred` element allow you to defer the layout and paint of a element. GPUI follows the [Painter's algorithm](https://en.wikipedia.org/wiki/Painter%27s_algorithm) where elements that get painted after will be drawn on top of a element that got painted earlier. This is where the `Deferred` element allows you to delay the layout and paint of its child.
 
 ### Creating a Deferred
 

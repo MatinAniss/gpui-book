@@ -1,6 +1,6 @@
 ## Text
 
-Any element that implements the `Styled` trait allows its text style to be modifed through the `.text_style()` function or with the utility CSS-like styling functions.
+Any element that implements the `Styled` trait allows its text style to be modified through the `.text_style()` function or with the utility CSS-like styling functions.
 
 ### Color
 

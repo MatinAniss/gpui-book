@@ -1,6 +1,6 @@
 ## Element
 
-Any element that implements the `Styled` trait allows its styles to be modifed through the `.style()` function or with the utility CSS-like styling functions.
+Any element that implements the `Styled` trait allows its styles to be modified through the `.style()` function or with the utility CSS-like styling functions.
 
 ### Align Content
 
@@ -36,7 +36,7 @@ The `corner_radii` style controls the radius of the corners of the element.
 
 ### Display
 
-The `display` style controls how the children of the element are layed out. The `Display` enum contains `Block`, `Flex`, `Grid`, and `None`.
+The `display` style controls how the children of the element are laid out. The `Display` enum contains `Block`, `Flex`, `Grid`, and `None`.
 
 ### Flex Basis
 
@@ -44,7 +44,7 @@ The `flex_basis` style controls the initial size of the flex item element.
 
 ### Flex Direction
 
-The `flex_direction` style controls which direction the children a flex element will be layed out. The `FlexDirection` enum contains `Row`, `Column`, `RowReverse`, and `ColumnReverse`.
+The `flex_direction` style controls which direction the children a flex element will be laid out. The `FlexDirection` enum contains `Row`, `Column`, `RowReverse`, and `ColumnReverse`.
 
 ### Flex Grow
 
