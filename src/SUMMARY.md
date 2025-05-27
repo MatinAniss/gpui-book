@@ -30,7 +30,7 @@
 - [Animation](animation/index.md)
 - [Interactivity](interactivity/index.md)
   - [Mouse](interactivity/mouse.md)
-  - [Keyboard]()
+  - [Keyboard](interactivity/keyboard.md)
 - [Rendering](rendering/index.md)
   - [Render](rendering/render.md)
   - [RenderOnce](rendering/render-once.md)

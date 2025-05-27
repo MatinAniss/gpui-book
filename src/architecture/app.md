@@ -9,3 +9,11 @@ Using `App` you can access the `open_window` function which takes a `WindowOptio
 ```rust
 {{ #include snippets/opening_a_window.rs }}
 ```
+
+### On Action
+
+Using `App` you can use `on_action` function to bind a callback to the firing of a action globally throughout your application.
+
+```rust
+{{ #include snippets/on_action.rs }}
+```
