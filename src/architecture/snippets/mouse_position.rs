@@ -1,10 +1,10 @@
-use gpui::{AppContext, Application, Context, IntoElement, Render, Window, WindowOptions, div};
+use gpui::{AppContext, Application, Context, Empty, IntoElement, Render, Window, WindowOptions};
 
 struct RootView;
 
 impl Render for RootView {
     fn render(&mut self, _window: &mut Window, _cx: &mut Context<Self>) -> impl IntoElement {
-        div()
+        Empty
     }
 }
 
