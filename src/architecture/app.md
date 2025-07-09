@@ -17,3 +17,11 @@ Using `App` you can use `on_action` function to bind a callback to the firing of
 ```rust
 {{ #include snippets/on_action.rs }}
 ```
+
+### Spawn
+
+Using `App` you can use the `spawn` function to enqueue a future on the main thread, it takes a `AsyncFnOnce` which will provide `AsyncApp` when the async closure is invoked. The `AsyncApp` allows you to access application state.
+
+```rust
+{{ #include snippets/spawn.rs }}
+```
