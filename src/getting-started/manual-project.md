@@ -9,10 +9,18 @@ cargo new my-app
 cd my-app
 ```
 
-Add the `gpui` git dependency to the `Cargo.toml`.
+You may either add `gpui` using the crates.io crate or git repository.
 
-```toml
-{{ #include snippets/hello_world_cargo.toml }}
+Adding `gpui` using a crates.io dependency to the `Cargo.toml`.
+
+```properties
+cargo add gpui
+```
+
+Adding `gpui` using a git dependency to the `Cargo.toml`.
+
+```properties
+cargo add gpui --git https://github.com/zed-industries/zed
 ```
 
 ### Hello World Example
